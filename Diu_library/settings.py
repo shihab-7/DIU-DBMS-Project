@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-8v@hp1npk7ok_&-u(k=)(w(7if$nc*jda1r2qhzn+*ixr@7ca=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://diu-library.onrender.com']
 
 
 # Application definition
